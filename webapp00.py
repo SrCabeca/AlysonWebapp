@@ -3,7 +3,7 @@ import streamlit as st
 from ACTlib01 import *
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRHqHv4aSLz5e0n6Jm_sGmdsPjZEISusZCDDqvoO1WEetV2Afadsf10h8LG0txlOFi3Lqwg79uYXzjM/pub?gid=1409840764&single=true&output=csv"
 db = Ler_GooglePlanilha(url)
-Esvrever(db)
+Esvrever  (db)
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("WEB APP H.H.O")
